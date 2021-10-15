@@ -1,0 +1,95 @@
+body{
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  height: auto;
+  width: auto;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+.card{
+  background-color: hsl(225, 100%, 98%);
+  color: black;
+  height: 440px;
+  width: 450px;
+  position: relative;
+  left: 460px;
+  bottom: 90px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+}
+.music{
+  background-color:  rgba(232, 232, 232, 1);
+  border-radius: 10px;
+  color:  black;
+  height: 90px;
+  width: 320px;
+  position: relative;
+  left: 60px;
+}
+.cardimg{
+  position: relative;
+  left: 460px;
+  bottom: 750px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+h1{
+  text-align: center;
+  padding-top: 40px;
+}
+.p1{
+  text-align: center;
+  width: 70%;
+  line-height: 2;
+  margin-left: 65px;
+}
+.msic{
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.p2{
+  float: right;
+  padding-right: 140px;
+  line-height: 2;
+
+}
+a{
+  position: relative;
+  left: 240px;
+  bottom: 14px;
+  text-decoration: underline;
+}
+a:hover{
+  text-decoration: none;
+  color: blue;
+}
+.p3{
+  color:  hsl(224, 23%, 55%);
+  padding-left: 180px;
+  padding-top: 30px;
+
+}
+.p3:hover{
+  color: black;
+  font-weight: bolder;
+}
+.btn{
+  position: relative;
+  left: 40px;
+  top: 20px;
+  color: white;
+  background-color: rgb(56, 41, 224);
+  height: 50px;
+  width: 360px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.btn:hover{
+  background-color:  rgba(56, 41, 224,0.8);
+}
